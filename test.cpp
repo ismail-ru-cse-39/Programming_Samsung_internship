@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main()
 {
-    double x,y;
+    int a,b;
 
-    scanf("%lf %lf",&x,&y);
-    printf("%lf %lf\n",x,y);
+   scanf("%d",&a);
+   printf("%d\n",a);
 
     return 0;
 }
