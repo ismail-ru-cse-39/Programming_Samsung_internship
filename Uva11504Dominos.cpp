@@ -67,27 +67,6 @@ void take_input()
 	}
 }
 
-/*void bfs(int u){
-
-while (!qi.empty()){
-int s = qi.front();
-
-qi.pop();
-
-
-
-for (int j = 1; j <= N; j++){
-if (Visited[j] == 0 && Graph[s][j]){
-Visited[j] = 1;
-Level[j] = Level[s] + 1;
-Mx = Max(Mx, Level[j]);
-qi.push(j);
-}
-}
-
-Cnt++;
-}
-}*/
 
 void dfs(int u)
 {
