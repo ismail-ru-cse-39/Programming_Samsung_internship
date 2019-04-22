@@ -77,7 +77,7 @@ void solve_case()
 	for (i = 0; i < N ; i++){
 		cnt_zero_1 = cntzero(i);
 		 cnt = 0;
-		if (cnt_zero_1 == K || (K>= cnt_zero_1 &&(K-cnt_zero_1)%2 == 0)){
+		if (cnt_zero_1 <= K || (K>= cnt_zero_1 &&(K-cnt_zero_1)%2 == 0)){
 			cnt = 1;
 			for (int j = i + 1; j < N; j++){
 
@@ -109,7 +109,7 @@ int main()
 {
 
 	//freopen("in.txt", "r", stdin);
-	freopen("input.txt", "r", stdin);
+	freopen("in.txt", "r", stdin);
 	freopen("out.txt", "w", stdout);
 
 
