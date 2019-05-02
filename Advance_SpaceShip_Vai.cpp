@@ -48,7 +48,7 @@ int Max(int a, int b){
 	}
 }
 
-void ship(int row, int curpos, int cnt)
+/*void ship(int row, int curpos, int cnt)
 {
 	row--;
 
@@ -68,7 +68,7 @@ void ship(int row, int curpos, int cnt)
 
 
 
-}
+}*/
 
 
 void go(int row, int col, int life, int score)
