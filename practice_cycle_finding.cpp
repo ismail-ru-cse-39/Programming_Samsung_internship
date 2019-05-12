@@ -131,8 +131,8 @@ void print_output()
 int main()
 {
     auto start = high_resolution_clock::now();
-    freopen("input.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
+    freopen("in.txt", "r", stdin);
+    //freopen("out.txt", "w", stdout);
 
     scanf("%d", &Test_cases);
 
@@ -149,5 +149,5 @@ int main()
       auto duration = duration_cast<microseconds>(stop - start);
 
       cout << "Time taken by function: "
-         << duration.count() << " microseconds" << endl;
+         << (double)duration.count()/1000000.0 << " seconds" << endl;
 }
