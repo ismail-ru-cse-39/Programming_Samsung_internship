@@ -96,7 +96,7 @@ void print_output()
 
 int main()
 {
-    freopen("in.txt", "r", stdin);
+    freopen("in_warmhole.txt", "r", stdin);
     freopen("out.txt", "w", stdout);
 
     scanf("%d", &Test_cases);
